@@ -1,0 +1,19 @@
+package: community.lazycat.app.moodist
+version: 3.0.0
+name: Moodist
+description: Ambient sounds for focus and calm.
+min_os_version: 1.5.0
+author: remvze
+license: MIT
+homepage: https://github.com/remvze/moodist
+locales:
+  zh:
+    name: Moodist
+    description: 帮助专注与放松的环境声音。
+  en:
+    name: Moodist
+    description: Ambient sounds for focus and calm.
+permissions:
+  required:
+    - net.internet
+    - compose.override

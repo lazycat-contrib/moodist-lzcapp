@@ -1,0 +1,9 @@
+manifest: ./lzc-manifest.yml
+pkgout: ./dist
+icon: ./icon.png
+compose_override:
+  services:
+    moodist:
+      logging:
+        options:
+          max-size: 1g
