@@ -3,8 +3,7 @@ application:
   upstreams:
     - location: /
       backend: http://moodist:8080/
-
 services:
   moodist:
-    # upstream: ghcr.io/remvze/moodist:v3.0.0
-    image: ghcr.1ms.run/remvze/moodist:v3.0.0
+    # upstream: ghcr.io/remvze/moodist:v3.1.1
+    image: ghcr.1ms.run/remvze/moodist:v3.1.1
